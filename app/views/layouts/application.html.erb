@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Urlcutter</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body style="background-color: grey;color: white;font-size: 3em;font-family: sans-serif;text-align: center;">
+  <h1>URL Cutter</h1>
+  <br>
+    <%= yield %>
+  </body>
+</html>

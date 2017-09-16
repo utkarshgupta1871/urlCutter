@@ -1,0 +1,9 @@
+<%= form_for @c do |f| %>
+<div style="text-align: center;width: 100vw;"> <%= f.label :original, 'Original URL' %>
+<br>
+
+<%= f.text_field :original, style: "width: 50vw;" %>
+	
+<br>
+<%= f.submit "Shorten URL" %></div>
+<% end %>
